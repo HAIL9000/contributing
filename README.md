@@ -46,7 +46,7 @@ section.
 Please create a git topic branch where you can do your work.
 
 5. **Make your changes.** Make the fix or add the feature you want to add. Please make sure to follow the
-(contributing guidelines)[https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md] and commit as you go using
+[contributing guidelines](https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md) and commit as you go using
 correctly formatted commit messages. You can find resources for help learning the programming language you need to use
 and should absolutely ask for help on IRC if you're feeling stuck. Our community is full of helpful friendly people
 who would love to answer your questions.
@@ -68,10 +68,30 @@ next phase in the process. Many people think that once they open a pull request 
 we'll have feedback, questions, or changes we'd like you to make. Please keep an eye on the pull request or your GitHub
 notifications so you're ready to respond to feedback. That way we can get your code reviewed and merged must faster.
 
-### Process
-
-### Getting Help/Resources
-
 ### Tips and Tricks
 
+  * **Reach out to the community.**
+  * **Start small.**
+  * **Don't be discouraged by mistakes.**
+  * **Please bother us if you don't hear back.**
+  * **Make sure your patch is being submitted to the right place.**
+  * **Update tests and documentation as appropriate.**
+
+### Resources
+
+  * Ruby
+  * Rspec
+  * Git
+  * Clojure
+  * C++
+  * General
+
 ## Documentation
+
+## Other Ways to Contribute
+
+## Getting Help
+
+  * IRC
+  * Mailing Lists
+  * Triages
