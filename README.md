@@ -70,12 +70,47 @@ notifications so you're ready to respond to feedback. That way we can get your c
 
 ### Tips and Tricks
 
-  * **Reach out to the community.**
-  * **Start small.**
-  * **Don't be discouraged by mistakes.**
-  * **Please bother us if you don't hear back.**
-  * **Make sure your patch is being submitted to the right place.**
-  * **Update tests and documentation as appropriate.**
+  * **Reach out to the community.** All and all, puppet has a pretty cool community made up of people who are kind and
+  passionate about the work they do. Don't be afraid to reach out and ask for help or advice, chances are there's someone
+  who's more than willing to answer your questions. We have a lot of ways you can talk to folks in the puppet community,
+  and all of those resources are monitored by both people in and outside of Puppet Labs. Reference the "Getting Help"
+  section below for a complete list.
+  * **Ask good questions.** When you're asking questions, there are a lot of people who want to help you out, so make
+  it easy for them to do so. Make sure you ask your questions are asked in the right forum and that you include the
+  information that people need to help out. If you're not sure where the right place to ask your question is, check out
+  the "Getting Help" section for a break down of IRC vs Google Groups etc. If you're looking for tips on how to ask questions,
+  take a look at the "Asking Good Questions" section below.
+  * **Start small.** Puppet can be scary, anyone who's worked on it before will agree with that. The last thing you want
+  is to take on a task that's too big and get discouraged, so make sure that you pick something that's appropriate for your
+  skill level. Try to find an area you're already somewhat familiar with, like maybe an operating system that you work with,
+  and pick a bug or feature that's manageable in size and scope. The less source code files you can touch the better. Then,
+  as you start to get comfortable with the little tasks, you can move on to your bigger grander ideas.
+  * **Don't be discouraged by mistakes.** Programming is tough, and when you're learning the ropes it can be challenging.
+  It's really important to keep in mind that making mistakes and failing is an essential part of the process when you're
+  learning something new, so frame your mistakes as a chance to learn instead of a reason to quit. In most cases, we'll
+  have suggestions or changes we'd like you to make when you submit a pull request, so don't be discouraged if we leave
+  a lot of comments. It's our way of helping you be the best contributor you can be, and make sure your contribution is
+  maintainable. So try to be opened minded and receptive to feedback, and remember that every mistake is a chance to learn
+  something new.
+  * **Please bother us if you don't hear back.** We're pretty busy people, and for most of us we have a lot to do in
+  addition to working with the community. If you haven't heard from us, it's definitely not because we don't care about
+  you or your work, it's because somethings just fall off the radar no matter how hard we work to keep track of everything.
+  So please, if you haven't heard back, ping us again. Comment on your pull request or ask on IRC to gently remind us
+  to take a look.
+  * **Make sure your patch is being submitted to the right place.** Puppet is a pretty big and distributed tool, it lives
+  in a lot of different places. The first question you want to ask yourself is if your patch belongs in core puppet itself
+  (puppet, fact, hiera, etc) or if it belongs in a module. Every situation is different, but a good rule of thumb is that
+  if you're changing existing behavior in puppet (like fixing a bug or making an improvement) it should go in puppet. However
+  if you're adding a big new feature, chances are it might belong in a module. The question you need to answer then is if
+  it should be in an existing module or a new one. Do a quick search of the forge and see if if there's already a module
+  related to what you want to do, then take a look and see if you think your feature would fit in. If not, you may want
+  to write your own module.
+  * **Update tests and documentation as appropriate.** In order to make sure our software is maintainable, we have test
+  and documentation. When you're developing, you want to make sure you regularly run our suit of unit tests to see if
+  anything was broken. Chances are, you may need to update a test or even add a new one with your pull request. We know
+  this can be really tough, and we often help out with this, so if you need help please ask. You don't want tests to be
+  what prevents you from submitting your contribution, but it's essential that they're up to date. **TODO:** How do you
+  update docs??
 
 ### Resources
 
@@ -95,3 +130,5 @@ notifications so you're ready to respond to feedback. That way we can get your c
   * IRC
   * Mailing Lists
   * Triages
+
+## Asking Good Questions
